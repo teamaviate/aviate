@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow-x:hidden;
+  height:100%; 
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+  
+
+/* get in touch */
+#touch1{
+  font-size:20px;
+}
+.git{
+  /* position: relative; */
+  /* height:100vh; */
+  background-color: whitesmoke;
+  background-image:  linear-gradient(
+    to bottom,
+    transparent 50px,
+    whitesmoke 50px,
+    whitesmoke calc(100% - 50px),
+    transparent 0
+  );
+  padding-top: 0vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 5vh;
+  margin-bottom: -3vh;
+}
+
+@media (max-width:768px){
+  #touch1{
+    font-size:20px;
+  }
+  
+  .git{
+    position: relative;
+    height:auto;
+    background-color: whitesmoke;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-bottom: -3vh;
+  } 
+}
+
+
+
+      
+  
+  #more1 {
+        display: none;
+    }
+  #more2 {
+      display: none;
+  }
+  #more3 {
+    display: none;
+}
+
+#aboutus1{
+  padding:2vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.activeColor > .active{
+  background-color: black;
+}
+
+

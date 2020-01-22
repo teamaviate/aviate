@@ -1,0 +1,125 @@
+.aboutusinfo{
+    background-image: url("./assets/image1.jpg");
+    opacity:0.4;
+    height:55vh;
+    width:100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }  
+  .aboutustext{
+    margin-top:-45vh;
+    margin-bottom: 20vh;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .vision{
+      margin-left:3vw;
+      margin-right: 3vw;
+      padding-top: 5vh;
+      padding-left: 5vh;
+  }
+  .vision1{
+    margin-left:3vw;
+    margin-right: 3vw;
+    padding-top: 5vh;
+}
+  .whatdrives{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom:10vh;
+  }
+  .whatDrivesOurPeople.gridContainer .gridContent:nth-child(2n+1){
+    background-color:#d6d6d6;
+    text-align: justify;
+  }
+  .whatDrivesOurPeople.gridContainer .gridContent h2{
+    margin-top:0.2em
+  }
+  .whatDrivesOurPeople .gridContentContainer{
+    padding:2em 3em;
+    height: auto;
+  }
+  .whatDrivesOurPeople.gridContainer .gridContent:nth-child(3){
+    background-color:#b4b4b4
+  }
+  .whatDrivesOurPeople .gridContent{
+    flex-basis:33%
+  }
+  .whatDrivesOurPeople .gridContent:nth-child(3){
+    flex-basis:33%
+  }
+  
+  .whatDrivesOurPeople.gridContainer .gridContent:nth-child(3){
+    background-color:#d6d6d6
+  }
+  .gridContainer{
+    display:flex;flex-direction:row;flex-wrap:wrap
+  }
+  .gridContainer .gridContent{
+    align-items:center;display:flex;justify-content:center;flex-direction:column
+  }
+  
+  .gridContainer .gridContent{
+    background-color:#eaeaea;transition:all .1s ease .1s
+  }
+  .gridContainer .gridContent:nth-child(3n+1){
+    background-color:#d6d6d6
+  }
+  .gridContentContainer{
+    padding:0em 1em
+  }
+  .gridContainer .gridContent i{
+    opacity:0;transition:all .5s ease .1s;transform:translateX(-49px)
+  }
+  .gridContainer .gridContent:hover{
+    background:linear-gradient(to right,#09f3f2 0,#00b57b 100%)
+  }
+  .gridContainer .gridContent:hover i{
+    opacity:1;transform:translateX(0)
+  }
+  
+
+
+  @media  (max-width: 850px){
+    .aboutusinfo{
+      background-image: url("./assets/image1.jpg");
+      opacity:0.4;
+      height:100vh;
+      width:100vw;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }  
+    .aboutustext{
+      margin-top:-96vh;
+      font-size: 14px;
+      text-align: center;
+      height: 0vh;
+    }
+    .vision{
+        margin-left:2vh;
+        margin-right: 2vh;
+        padding-top: 10vh;
+        padding-left: 2vh;
+    }
+    .vision1{
+      margin-left:2vh;
+      margin-right: 2vh;
+      padding-top: 0vh;
+
+  }
+    .whatdrives{
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+      .whatDrivesOurPeople.gridContainer .gridContent h2{
+        margin-top:0em;
+      }
+      .whatDrivesOurPeople .gridContent{
+        flex-basis:100%
+      }
+      .whatDrivesOurPeople .gridContent:nth-child(3){
+        flex-basis:100%
+      }
+  }  
+  

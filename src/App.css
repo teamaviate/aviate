@@ -1,0 +1,468 @@
+#root{
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	/* font-family: 'Open Sans'; */
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+  }
+
+
+.App {
+  text-align: center;
+}
+
+
+.fontnav {
+	color: white;
+	font-size: 14px;
+	font-family: azonix;
+	padding-right: 10vh;
+}
+.dropdown{
+	background-color: transparent;
+}
+
+.myVideo {
+	position: relative;
+  	right: 0;
+  	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	background-size: cover;
+	filter: brightness(30%);
+	margin-top: -12vh;
+	z-index: -1;
+  }
+ @media (max-width:600px){
+	 .myVideo{
+		background-size: cover;
+		margin-top: 0vh;
+	 }
+ }
+
+ @media (min-width:600px)and (max-width:800px){
+	.myVideo{
+	   background-size: cover;
+	   margin-top: 0vh;
+	}
+}
+
+
+.aviatenav{
+	margin-top: 0vh;
+	border: 0; 
+	box-shadow: none;
+}
+
+.aviatelogo{
+	height:8vh;
+	width:8vh;
+
+}
+
+.aviatetitle{
+	height:8vh;
+	width:15vh;
+	margin-left:0vh;
+	font-family: arial;
+
+}
+
+.aviatebrand{
+	margin-left: 8vh;
+}
+
+.itemsnav{
+	margin-left: 2vh;;
+	background-color: transparent;
+}
+
+.navbartoggler{
+border-color: white;
+}
+
+@media(max-width:991px){
+	.aviatenav{
+		background-color: black;
+		margin-top: 0vh;
+	}
+	.aviatelogo{
+		height:5vh;
+		width:5vh;
+		margin-left:0vh;
+	}
+	.aviatetitle{
+		height:5vh;
+		width:10vh;
+		margin-left:0vh;
+	}
+	.aviatebrand{
+		margin-left:1vh;
+		
+	}
+	
+	
+	
+}
+
+
+@media (min-width : 991px)
+  and (max-width : 1250px){
+	
+	.aviatenav{
+		/* background-color:black; */
+		margin-top: 0vh;
+	}
+	.aviatelogo{
+		height:10vh;
+		width:10vh;
+		margin-left:0vh;
+		font-family: arial;
+	}
+	.aviatetitle{
+		height:10vh;
+		width:18vh;
+		margin-left:0vh;
+	}
+	.aviatebrand{
+		margin-left: 3vh;
+	}
+	.fontnav {
+		/* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+		font-size: 14px;
+		font-weight: 10;
+		
+	
+	}
+	
+}
+@media (min-width : 768px)
+  and (max-width : 1350px){
+	.itemsnav{
+		margin-left: 1vh;
+	}
+}
+
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:rgb(255, 255, 255);
+}
+
+.App-link {
+  color: #61dafb;
+}
+.eventpage{
+	height: 100vh;
+}
+
+.roundBorder{
+	border-radius: 3vh;
+}
+
+.courseCardImg{
+	height: 500px;
+	border-radius: 3vh;
+}
+@media(max-width:768px){
+	.courseCardImg{
+		height: 300px;
+		border-radius: 3vh;
+	}	
+}
+/* Footer */
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	position: -webkit-sticky;
+	position: sticky;
+	padding: 25px 50px;
+	margin-top: 20px;
+	bottom: 0;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 33%;
+}
+@media (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation : portrait) {
+	.footer-distributed .footer-left{
+		width: 40%;
+		margin-top:5vh;
+	}
+  }
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 20px;
+	/* padding-left: 3vw; */
+	/* padding-right: 3vw; */
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: 1vh;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+  width: 33%;
+  margin-top:8vh;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  width: 33%;
+  margin-top:8vh;
+}
+.footer-distributed .footer-right .map{
+	width: 55vh;
+	height: 30vh;
+}
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+		padding-bottom: 15vh;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		/* margin-bottom: 10vh; */
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+		margin-top:0vh;
+	}
+	.footer-distributed .footer-company-about span{
+		margin-bottom: 10px;
+	}
+	.footer-right{
+		margin-left: -8vh;
+		padding: 5vh;
+		
+	}
+	.footer-distributed .footer-right .map{
+		width: 46vh;
+		height: 40vh;
+	}
+}
+
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* STYLES GO HERE */
+}
+ 
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* STYLES GO HERE */
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* STYLES GO HERE */
+}
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* STYLES GO HERE */
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+}
+ 
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* STYLES GO HERE */
+}
+ 
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* STYLES GO HERE */
+}
+ 
+/* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+/* STYLES GO HERE */
+}
+ 
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+}
+ 
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,447 @@
+.school_1{
+  padding:3vh;
+  height:100vh;
+}
+
+.school_1_1{
+  font-style:italic;
+  text-align:center;
+  color:black;
+  margin-top:0vh;
+  padding-left:10vh;
+  padding-right:10vh;
+}
+.school_1_2{
+  text-align: center;
+  margin-top: 3vh;
+}
+.school_1_3{
+  margin-top:3vh;
+  margin-left: 560px;
+  height: 2px;
+  width: 150px;
+  background-color: rgb(166, 236, 34);
+}
+.school_1_4{
+  margin-top : 0vh;
+  width:65vh;
+  height:65vh;
+  padding-left: 10vh;
+ }
+.school_1_5{
+  text-align: center;
+  padding:3vh;
+  margin-top: 15vh;
+  text-justify: auto;
+  padding-left: 20vh;
+}
+.school_1_6{
+  text-align: center;
+}
+.school_1_7{
+  border-radius: 10vh;
+}
+
+
+
+@media (max-width:768px){
+  .school_1{
+    padding:3vh;
+    height:auto;
+  }
+  .school_1_1{
+    margin-top:0vh;
+    padding-left:0vh;
+    padding-right:0vh;
+  }
+  .school_1_2{
+    margin-top: 0vh;
+    font-size: 24px;
+  }
+  .school_1_3{
+    margin-top:3vh;
+    margin-left: 85px;
+    height: 2px;
+    width: 150px;
+   }
+   .school_1_4{
+    margin-top : 0vh;
+    padding-left: 10vh;
+    width:55vh;
+    height:55vh;
+   }
+   .school_1_5{
+    margin-top: 0vh;
+    padding-left: 0vh;
+
+   } 
+}
+
+
+@media (min-width : 768px)
+and (max-width : 1100px)
+ {
+  .school_1{
+    padding:3vh;
+    height:auto;
+  }
+.school_1_1{
+  padding-left:3vh;
+  padding-right:3vh;
+}
+.school_1_3{
+  margin-top:3vh;
+  margin-left: 250px;
+  height: 2px;
+  width: 175px;
+  background-color: rgb(166, 236, 34);
+}
+
+.school_1_4{
+    margin-top : 0vh;
+    margin-left: -10vh;
+    width:45vh;
+    height:45vh;
+ }
+.school_1_5{
+    padding-left:0vh;
+    margin-top: 0vh;
+    text-justify: auto;
+
+}
+}
+
+
+
+/* school2 */
+
+
+.school_2{
+  height: auto;
+  padding:3vh;
+  background-color: whitesmoke;
+}
+.school_2_1{
+  padding-top:5vh;
+}
+.school_2_2{
+  margin-top : 0vh;
+  width:95vh;
+  height:90vh;
+}
+
+
+@media (max-width:600px){
+  .school_2{
+    height: auto;
+    padding-bottom: 10vh;
+  }
+  .school_2_2{
+    margin-top : -8vh;
+    width:60vh;
+    height:60vh;
+  }
+}
+
+
+
+@media (min-width : 600px)
+and (max-width : 1024px)
+ {
+  .school_2_2{
+    margin-top : -5vh;
+    padding-bottom: 5vh;
+    width:80vh;
+    height:80vh;
+  }
+}
+/* school3 */
+
+
+.school_3{
+  height:100vh;
+  padding:3vh;
+  background-color: white;
+}
+.school_3_1{
+  padding-top:10vh;
+}
+.school_3_2{
+  /* color:rgb(167, 6, 6); */
+  color:rgb(24, 13, 13);
+}
+
+.school_3_3{
+  padding-top: 10vh;
+  padding-right: 8vh;
+  text-justify: auto;
+  text-align: center;
+  color:rgb(24, 13, 13);
+}
+
+.school_3_4{
+margin-top: 0vh;
+}
+.school_3_5{
+margin-top:5vh;
+}
+.school_3_6{
+  margin-top: 8vh;
+}
+.school_3_7{
+  border-radius: 30vh;
+  padding:2vh;
+  padding-left:5vh;
+  padding-right:5vh;
+}
+
+
+@media (max-width:768px){
+  .school_3{
+    height:auto;
+    margin-top:-5vh;
+    padding-bottom: 8vh;
+  }
+  .school_3_1{
+    padding-top:5vh;
+  }
+  .school_3_2{
+    /* color:rgb(167, 6, 6); */
+    font-size:22px;
+    color:rgb(24, 13, 13);
+  }
+  .school_3_3{
+    padding-top: 3vh;
+    padding-right: 3vh;
+    color:rgb(24, 13, 13);
+  }
+  .school_3_4{
+    margin-top: 0vh;
+    font-size:26px;
+    }
+    .school_3_5{
+    margin-top:3vh;
+    } 
+      
+}
+
+@media (min-width : 768px)
+and (max-width : 1024px)
+ {
+  .school_3{
+  padding-bottom: 3vh;
+  height: auto;
+  }
+  .school_3_2{
+    font-size: 28px;
+  }
+  .school_3_3{
+    padding-top: 0vh;
+    padding-right: 3vh;
+    color:rgb(24, 13, 13);
+  }
+  
+.school_3_4{
+  margin-top: 3vh;
+  }
+  .school_3_5{
+  margin-top:2vh;
+  }
+  .school_3_6{
+    margin-top: 3vh;
+  }
+  .school_3_7{
+    border-radius: 30vh;
+    padding-left: 1vh;
+    padding-right:1vh;
+  }
+}
+
+
+
+/* school4 */
+
+
+
+.school_4{
+padding:3vh;
+background-color: whitesmoke;
+height:100vh;
+}
+.school_4_2{
+padding:3vh;
+margin-top:5vh;
+}
+.school_4_3{
+  margin-top:5vh;
+}
+.school_4_4{
+  margin-top:5vh;
+  text-align: center;
+  }
+.school_4_4_1{
+  border-radius: 30vh;
+  padding:2vh;
+  padding-left:5vh;
+  padding-right:5vh;
+  }
+.school_4_5{
+  padding:3vh;
+}
+.school_4_6{
+  margin-top:3vh;
+  width:55vh;
+  height:40vh;
+}
+.school_4_7{
+  margin-top:3vh;
+  width:55vh;
+  height:40vh;
+}
+
+
+
+
+@media (max-width:768px){
+.school_4{
+  padding:0vh;
+  margin-top: -2vh;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  padding-bottom: 5vh;
+  height:auto;
+  }
+.school_4_2{
+  padding-left: 3vh;
+  padding-right: 3vh;
+  margin-top:-5vh;
+  }
+  .school_4_4{
+    margin-top:2vh;
+    text-align: center;
+    }
+  .school_4_4_1{
+    border-radius: 30vh;
+    padding:0vh;
+    padding-left:3vh;
+    padding-right:3vh;
+    }  
+.school_4_5{
+  padding:0vh;
+  height: auto;
+}
+.school_4_6{
+  padding-left: 5vh;
+  width:49vh;
+  height:40vh;
+ }
+.school_4_7{
+  padding-left: 5vh;
+  width:49vh;
+  height:40vh;
+}
+}
+
+
+
+@media (min-width : 768px)
+and (max-width : 1024px)
+ {
+  .school_4{
+  height: auto;
+  }
+  .school_4_2{
+    padding-left: 1vh;
+    padding-right: 1vh;
+    margin-top:-3vh;
+    }
+  .school_4_3{
+      margin-top:2vh;
+  }
+  .school_4_4{
+      margin-top:5vh;
+      text-align: center;
+    }
+.school_4_4_1{
+    border-radius: 30vh;
+    padding:1vh;
+    padding-left:2vh;
+    padding-right:2vh;
+    }  
+  .school_4_5{
+    padding:0vh;
+    height: auto;
+  }
+  .school_4_6{
+    padding-left: 5vh;
+    width:39vh;
+    height:30vh;
+   }
+  .school_4_7{
+    padding-left: 5vh;
+    padding-right: 5vh;
+    width:39vh;
+    height:30vh;
+  }
+}
+
+
+
+/* school5 */
+
+.school_5{
+  padding:3vh;
+  margin-top:2vh;
+  height:auto;
+}
+.school_5_1{
+  color:black;
+  text-align:center;
+}
+.school_5_2{
+  margin-top:3vh;
+  font-size:18;
+  color:black;
+}
+.school_5_3{
+  padding-left:1vh;
+  padding-right:1vh;
+  background-color: white;
+  height:auto;
+}
+.school_5_4{
+  padding-top:3vh;
+}
+
+
+@media(max-width:600px){
+  .school_5_1{
+    color:black;
+    text-align:center;
+    font-size: 28px;
+  }
+  
+}
+
+
+.stem{
+    /* background-image: url("./assets/stem.jpg"); */
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin-left: 8vw;
+    width:100%;
+    /* height: 100vh; */
+  }
+
+  
+  @media (max-width:1200px){
+    .stem{
+      /* background-image: url("./assets/stem.jpg"); */
+      background-repeat: no-repeat;
+      background-size:contain;
+      width:100%;
+      margin-left: 0vw;
+      height:35vh;
+    }
+  }
+  
